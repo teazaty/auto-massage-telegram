@@ -1,0 +1,9 @@
+1. The script defines a function called sendTikTokVideoToTelegram that handles the process of sending the TikTok video link to the Telegram bot. This function uses the fetch function to make a POST request to the Telegram API's sendMessage endpoint.
+
+2. Inside the sendTikTokVideoToTelegram function, the TikTok video URL is included in the request body along with the chat ID. The fetch function returns a promise, which is awaited to get the response from the API.
+
+3. If the response from the Telegram API indicates a successful delivery (the ok property is true), a success message is printed to the console. If there is an error (the ok property is false), an error message with the description of the error is printed.
+
+4. The script sets an interval using setInterval to repeatedly call the sendTikTokVideoToTelegram function at a specified delay. The delay is provided in seconds and converted to milliseconds (as expected by setInterval).
+
+5. The script prints an initial message to the console to confirm that the script is running, including the specified delay.
