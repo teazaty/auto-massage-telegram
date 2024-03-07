@@ -1,8 +1,8 @@
 import fetch from 'node-fetch';
 
 // Set your Telegram bot token and chat ID
-const telegramBotToken = '7039807802:AAEfcs0RBmELkbF7QVjk44jGFQ7DG60o6TA';
-const telegramChatId = '1320125276';
+const telegramBotToken = '';
+const telegramChatId = '';
 const tiktokVideoUrl = 'https://www.tiktok.com/@ijlalfahlefy/video/7330520719916272916';
 const delayInSeconds = 5; // Set your desired delay in seconds
 
